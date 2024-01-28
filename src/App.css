@@ -37,11 +37,6 @@
   }
 }
 
-/* .city-input{
-  width: 70%;
-  height: 2rem;
-} */
-
 .date-picker{
   height: 39px;
 }
@@ -109,8 +104,6 @@
   margin-right: 5px
 }
 
-
-/* Örnek CSS Kodu */
 .flights-line {
   border-top: 5px solid #ffffff; /* Çizgi genişliği ve rengi */
   border-bottom-right-radius: 25px;
@@ -125,6 +118,5 @@
 }
 
 .sorting-button{
-  /* background-color: #ffffff49; */
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.601);
 }
