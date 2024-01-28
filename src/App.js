@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* Diğer içerikler */}
         <FlightSearch />
       </header>
     </div>
