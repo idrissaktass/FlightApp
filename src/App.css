@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: skyblue;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(33, 33, 33);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #141414;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* .city-input{
+  width: 70%;
+  height: 2rem;
+} */
+
+.date-picker{
+  height: 39px;
+}
+
+.search-flight{
+  display: flex;
+  align-items: center;
+}
+
+.date-form {
+   display: flex;
+}
+
+.dates{
+  align-items: center;
+  display: flex;
+}
+
+.search-flight{
+    background-color: #d7d7d7d2;
+    border: 1px solid black;
+    box-shadow: 0px 10px 12px #1d1d1d;
+    border-radius: 10px;
+}
+
+.date-picker {
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.form-check{
+  font-size: 17px;
+}
+
+.results-list{
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+  font-size: 16px;
+}
+.flight-details-container {
+  background-color: #d7d7d7d2;
+  border: 1px solid black;
+  box-shadow: 0px 3px 5px #1d1d1d;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Add margin to separate each flight details container */
+  padding-top: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.flight-details-container:hover{
+  box-shadow: 0px 0px 12px 12px #0000007c;
+}
+
+.results-info{
+  margin-right: 50px
+}
+
+.results-svg{
+  margin-right: 5px
+}
+
+
+/* Örnek CSS Kodu */
+.flights-line {
+  border-top: 5px solid #ffffff; /* Çizgi genişliği ve rengi */
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.flights-header{
+  background-color: #0000007a;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+}
+
+.sorting-button{
+  /* background-color: #ffffff49; */
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.601);
 }
